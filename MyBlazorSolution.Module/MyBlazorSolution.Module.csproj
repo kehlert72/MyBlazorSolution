@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Deterministic>false</Deterministic>
+    <AssemblyVersion>1.0.*</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Configurations>Debug;Release;EasyTest</Configurations>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DefineConstants>TRACE;DEBUG;EASYTEST</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.ExpressApp" Version="20.2.3" />
+    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="20.2.3" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="20.2.3" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="20.2.3" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="20.2.3" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="20.2.3" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl" Version="20.2.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Blazor.v20.2">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.3\lib\netstandard2.1\DevExpress.Blazor.v20.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Blazor.v20.2">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.expressapp.blazor\20.2.3\lib\netstandard2.1\DevExpress.ExpressApp.Blazor.v20.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PackageDependenciesInfo.Installer">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 20.2\DevExtreme\System\DevExtreme\DevExpress.PackageDependenciesInfo.Installer.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExtreme.AspNet.Mvc.Installer">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 20.2\DevExtreme\System\DevExtreme ASP.NET MVC Controls\DevExtreme.AspNet.Mvc.Installer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

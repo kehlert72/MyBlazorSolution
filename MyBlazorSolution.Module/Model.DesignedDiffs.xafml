@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="MyBlazorSolution">
+  <ActionDesign>
+    <Actions>
+      <Action Id="ClearTaskAction" ToolTip="Clear the current Contact's tasks" ConfirmationMessage="Are you sure you want to clear all the tasks?" />
+      <Action Id="Task.MarkCompleted" ValidationContexts="MarkCompleted" />
+    </Actions>
+    <ActionToContainerMapping>
+      <ActionContainer Id="Edit">
+        <ActionLink ActionId="ClearTaskAction" Index="0" IsNewNode="True" />
+      </ActionContainer>
+      <ActionContainer Id="View">
+        <ActionLink ActionId="ClearTaskAction" Removed="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.Task">
+      <OwnMembers>
+        <Member Name="DueDate" DisplayFormat="D" />
+        <Member Name="PercentCompleted" DisplayFormat="{0:N0}%" />
+        <Member Name="StartDate" DisplayFormat="D" />
+        <Member Name="Subject" RowCount="2" Size="200" />
+      </OwnMembers>
+    </Class>
+    <Class Name="MyBlazorSolution.Module.BusinessObjects.Contact" ObjectCaptionFormat="{0:FullName} from the {0:Department}">
+      <OwnMembers>
+        <Member Name="Position" DataSourceCriteriaProperty="Department.Positions" DataSourcePropertyIsNullMode="SelectAll" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Note" ImageName="BO_Note" Caption="Notes" ViewId="Note_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="20.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Validation>
+    <Rules>
+      <RuleCriteria Id="TaskIsNotStarted" TargetType="MyBlazorSolution.Module.BusinessObjects.DemoTask" Criteria="Status != 'NotStarted'" TargetContextIDs="MarkCompleted" CustomMessageTemplate="Cannot set the task as completed because it has not started" IsNewNode="True" />
+    </Rules>
+  </Validation>
+  <Views>
+    <ListView Id="DemoTask_ListView">
+      <Columns>
+        <ColumnInfo Id="DueDate" Index="2" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

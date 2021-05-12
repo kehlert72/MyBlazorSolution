@@ -1,0 +1,15 @@
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\bin\Debug\netstandard2.1\MyBlazorSolution.Module.deps.json
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\bin\Debug\netstandard2.1\MyBlazorSolution.Module.dll
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\bin\Debug\netstandard2.1\MyBlazorSolution.Module.pdb
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\obj\Debug\netstandard2.1\MyBlazorSolution.Module.csprojAssemblyReference.cache
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\obj\Debug\netstandard2.1\MyBlazorSolution.Module.AssemblyInfoInputs.cache
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\obj\Debug\netstandard2.1\MyBlazorSolution.Module.AssemblyInfo.cs
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\obj\Debug\netstandard2.1\MyBlazorSolution.Module.csproj.CoreCompileInputs.cache
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\obj\Debug\netstandard2.1\MyBlazorSolution.Module.dll
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\obj\Debug\netstandard2.1\MyBlazorSolution.Module.pdb
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\bin\Debug\netstandard2.1\DevExpress.ExpressApp.Blazor.v20.2.dll
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\bin\Debug\netstandard2.1\DevExpress.PackageDependenciesInfo.Installer.dll
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\bin\Debug\netstandard2.1\DevExtreme.AspNet.Mvc.Installer.dll
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\obj\Debug\netstandard2.1\MyBlazorSolution.Module.csproj.CopyComplete
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\bin\Debug\netstandard2.1\DevExpress.Blazor.v20.2.dll
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module\bin\Debug\netstandard2.1\DevExpress.Blazor.v20.2.xml

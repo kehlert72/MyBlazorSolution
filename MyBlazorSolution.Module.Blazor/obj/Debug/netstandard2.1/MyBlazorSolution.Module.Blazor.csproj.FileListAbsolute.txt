@@ -1,0 +1,17 @@
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\bin\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.StaticWebAssets.xml
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\bin\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.deps.json
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\bin\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.dll
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\bin\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.pdb
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\bin\Debug\netstandard2.1\MyBlazorSolution.Module.dll
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\bin\Debug\netstandard2.1\MyBlazorSolution.Module.pdb
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.csprojAssemblyReference.cache
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.AssemblyInfoInputs.cache
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.AssemblyInfo.cs
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.csproj.CoreCompileInputs.cache
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\staticwebassets\MyBlazorSolution.Module.Blazor.StaticWebAssets.Manifest.cache
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\staticwebassets\MyBlazorSolution.Module.Blazor.StaticWebAssets.xml
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\scopedcss\bundle\MyBlazorSolution.Module.Blazor.styles.css
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.RazorTargetAssemblyInfo.cache
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.csproj.CopyComplete
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.dll
+C:\Users\Kaleb Ehlert\source\repos\MyBlazorSolution\MyBlazorSolution.Module.Blazor\obj\Debug\netstandard2.1\MyBlazorSolution.Module.Blazor.pdb
